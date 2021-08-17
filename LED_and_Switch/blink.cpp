@@ -2,13 +2,7 @@
 #define F_CPU 1000000UL			// define it now as 1 MHz unsigned long
 #endif
 
-#include <avr/io.h>				// this is always included in AVR programs
-
-
-template<typename T, typename U>
-constexpr bool IS_BIT_CLEAR(T reg, U bit) {
-	return (reg & (_BV(bit))) ? true : false;
-}
+#include "../Utils/Utils.hpp"				
 
 int main(void) {
 	
