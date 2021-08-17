@@ -1,0 +1,131 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-AU U?
+U 1 1 611BCCFD
+P 4750 2950
+F 0 "U?" H 4750 1361 50  0000 C CNN
+F 1 "ATmega328P-AU" H 4750 1270 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 4750 2950 50  0001 C CIN
+F 3 "" H 4750 2950 50  0001 C CNN
+	1    4750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3450 5850 3450
+Wire Wire Line
+	5350 3550 5850 3550
+Wire Wire Line
+	5350 3650 5850 3650
+Wire Wire Line
+	5350 3750 5850 3750
+Wire Wire Line
+	5350 3850 5850 3850
+Wire Wire Line
+	5350 3950 5850 3950
+Wire Wire Line
+	5350 4150 5850 4150
+Wire Wire Line
+	5350 4050 5850 4050
+$Comp
+L Device:R_Network03_Split RN?
+U 3 1 611C39E7
+P 6000 3450
+F 0 "RN?" V 5968 3628 50  0000 L CNN
+F 1 "R_Network03_Split" V 6059 3628 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 5920 3450 50  0001 C CNN
+F 3 "" H 6000 3450 50  0001 C CNN
+	3    6000 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network03_Split RN?
+U 3 1 611C4C00
+P 6000 3550
+F 0 "RN?" V 5968 3728 50  0000 L CNN
+F 1 "R_Network03_Split" V 6059 3728 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 5920 3550 50  0001 C CNN
+F 3 "" H 6000 3550 50  0001 C CNN
+	3    6000 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network03_Split RN?
+U 3 1 611C5054
+P 6000 3650
+F 0 "RN?" V 5968 3828 50  0000 L CNN
+F 1 "R_Network03_Split" V 6059 3828 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 5920 3650 50  0001 C CNN
+F 3 "" H 6000 3650 50  0001 C CNN
+	3    6000 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network03_Split RN?
+U 3 1 611C5457
+P 6000 3750
+F 0 "RN?" V 5968 3928 50  0000 L CNN
+F 1 "R_Network03_Split" V 6059 3928 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 5920 3750 50  0001 C CNN
+F 3 "" H 6000 3750 50  0001 C CNN
+	3    6000 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network03_Split RN?
+U 3 1 611C5A4A
+P 6000 3850
+F 0 "RN?" V 5968 4028 50  0000 L CNN
+F 1 "R_Network03_Split" V 6059 4028 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 5920 3850 50  0001 C CNN
+F 3 "" H 6000 3850 50  0001 C CNN
+	3    6000 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network03_Split RN?
+U 3 1 611C5F0D
+P 6000 3950
+F 0 "RN?" V 5968 4128 50  0000 L CNN
+F 1 "R_Network03_Split" V 6059 4128 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 5920 3950 50  0001 C CNN
+F 3 "" H 6000 3950 50  0001 C CNN
+	3    6000 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611C642F
+P 6000 4050
+F 0 "R?" V 5793 4050 50  0000 C CNN
+F 1 "R" V 5884 4050 50  0000 C CNN
+F 2 "" V 5930 4050 50  0001 C CNN
+F 3 "" H 6000 4050 50  0001 C CNN
+	1    6000 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611C69F7
+P 6000 4150
+F 0 "R?" V 5793 4150 50  0001 C CNN
+F 1 "470 OHM" V 5885 4150 50  0001 C CNN
+F 2 "" V 5930 4150 50  0001 C CNN
+F 3 "" H 6000 4150 50  0001 C CNN
+	1    6000 4150
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
